@@ -1,11 +1,24 @@
-.dm-bg-grey {
-    background-color: grey;
+/* CONTENT */
+
+/* COLORS */
+
+.dm-bg-header {
+    background-color: rgb(44 62 80);
 }
 
-.dm-bg-azure {
-    background-color: azure;
+.dm-bg-title,
+.dm-bg-about {
+    background-color: rgb(26 188 156);
 }
 
 .dm-bg-blue {
     background-color: blue;
+}
+
+.dm-bg-footer {
+    background-color: rgb(58 84 109);
+}
+
+.dm-bg-copyright-footer {
+    background-color: rgb(44 62 80);
 }
