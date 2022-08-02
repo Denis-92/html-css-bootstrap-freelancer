@@ -133,6 +133,51 @@
 
                 </div>
 
+                <div class="col-12">
+
+                    <form method="GET" action="#">
+
+                        <div class="mb-3">
+
+                            <label for="input-name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="input-name" name="user-name" placeholder="Name"
+                                value="Name">
+
+                        </div>
+
+                        <div class="mb-3 form-floating">
+
+                            <input required name="user-email" type="email" class="form-control is-invalid"
+                                id="input-email" aria-describedby="emailHelp" />
+                            <label for="input-email"> Email address </label>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="input-telephone" class="form-label">
+                                Phone number
+                            </label>
+                            <input required name="user-phone" type="number" minlength="9" class="form-control"
+                                id="input-telephone" aria-describedby="phoneHelp" />
+                            <div id="phoneHelp" class="form-text invisible">
+                                We'll never share your phone number with anyone else.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="input-message" class="form-label">
+                                Message
+                            </label>
+                            <textarea class="form-control" name="user-message" id="input-message" cols="30"
+                                rows="8"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn ac-bg-green">Send</button>
+
+                    </form>
+
+                </div>
+
             </div>
 
         </div>
