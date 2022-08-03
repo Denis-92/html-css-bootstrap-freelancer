@@ -23,6 +23,11 @@ img {
     width: 25vw;
 }
 
+.dm-star.dm-star-black::after,
+.dm-star.dm-star-black::before {
+    border: 1px solid black;
+}
+
 /* COLORS */
 
 .dm-bg-header {
