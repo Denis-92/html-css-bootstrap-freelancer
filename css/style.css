@@ -8,6 +8,10 @@ img {
     max-width: 200px;
 }
 
+#button-nav {
+    border-color: white;
+}
+
 .dm-star {
     margin-top: 10%;
     margin-bottom: 10%;
