@@ -28,6 +28,11 @@ img {
     border: 1px solid black;
 }
 
+.dm-star.dm-short-star::after,
+.dm-star.dm-short-star::before {
+    width: 5vw;
+}
+
 /* COLORS */
 
 .dm-bg-header {
@@ -35,7 +40,8 @@ img {
 }
 
 .dm-bg-title,
-.dm-bg-about {
+.dm-bg-about,
+.dm-color-button {
     background-color: rgb(26 188 156);
 }
 
