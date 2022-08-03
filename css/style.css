@@ -33,6 +33,12 @@ img {
     width: 5vw;
 }
 
+#social-buttons * {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
 /* COLORS */
 
 .dm-bg-header {
